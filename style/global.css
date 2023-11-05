@@ -1,0 +1,80 @@
+:root {
+    --e-global-color-primary: #181B44;
+    --e-global-color-secondary: #020E1F;
+    --e-global-color-text: #A09999;
+    --e-global-color-accent: #1297FE;
+    --e-global-color-d7153ad: #FFFFFF;
+    --e-global-color-5ce3b58: #2C4387;
+    --e-global-color-1fd11f6: #3C3C3C;
+    --e-global-typography-primary-font-family: "Montserrat";
+    --e-global-typography-primary-font-size: 30px;
+    --e-global-typography-primary-font-weight: 700;
+    --e-global-typography-secondary-font-family: "Montserrat";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Montserrat";
+    --e-global-typography-text-font-size: 15px;
+    --e-global-typography-text-font-weight: 500;
+    --e-global-typography-accent-font-family: "Montserrat";
+    --e-global-typography-accent-font-size: 15px;
+    --e-global-typography-accent-font-weight: 500;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    max-width: 1280px;
+    height: 100vh;
+    background-image: url('./img/textura.jpg');
+    background-blend-mode: overlay;
+    background: rgb(15,12,41);
+    background: radial-gradient(circle, rgba(15,12,41,1) 0%, rgba(62,97,188,1) 0%, rgba(15,12,41,1) 100%);
+    
+}
+
+a {
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+
+
+header {
+    margin-block: 30px;
+    z-index: 1;
+    background: none;
+    padding-inline: 16px;
+}
+
+.nav {
+    max-width: 1280px;
+    height: 70px;
+    margin-inline: auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.nav-list a {
+    font-size: 18px; 
+    color:var(--e-global-color-d7153ad);
+    padding-block: 16px;
+}
+
+.nav-list a:hover{
+    color: #1297FE;
+}
+
+img {
+    margin-left: 30px;
+    width: 180px;
+}
